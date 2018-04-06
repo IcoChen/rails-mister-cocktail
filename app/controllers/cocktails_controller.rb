@@ -22,19 +22,19 @@ class CocktailsController < ApplicationController
     end
   end
 
-  def edit
-  end
+  # def edit
+  # end
 
-  def update
-    @cocktail.update(cocktail_params)
-    redirect_to cocktail_path(@cocktail)
-  end
+  # def update
+  #   @cocktail.update(cocktail_params)
+  #   redirect_to cocktail_path(@cocktail)
+  # end
 
-  def destroy
-    @cocktail = @dose.cocktail
-    @cocktail.destroy
-    redirect_to cocktails_path
-  end
+  # def destroy
+  #   @cocktail = @dose.cocktail
+  #   @cocktail.destroy
+  #   redirect_to cocktails_path
+  # end
 
   private
 
