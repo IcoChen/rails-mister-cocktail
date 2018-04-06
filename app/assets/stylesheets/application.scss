@@ -1,0 +1,37 @@
+
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/navbar";
+@import "components/banner";
+@import "components/card";
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+}
+
+.padded {
+  padding: 20px 0px;
+}
